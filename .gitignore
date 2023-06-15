@@ -276,3 +276,10 @@ bedwarsunity.iml
 /TestCLR/Assets/Plugins/Android/obj/
 /TestCLR/Assets/Plugins/Android/libs/*/libBlockUnity.*
 /TestCLR/Assets/Plugins/Android/libs/*/libc++_shared.*
+
+/TestCLR/HybridCLRData/AssembliesPostIl2CppStrip/
+/TestCLR/HybridCLRData/HotUpdateDlls/
+/TestCLR/HybridCLRData/hybridclr_repo/
+/TestCLR/HybridCLRData/il2cpp_plus_repo/
+/TestCLR/HybridCLRData/StrippedAOTDllsTempProj/
+/TestCLR/Output/

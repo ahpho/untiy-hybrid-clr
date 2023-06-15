@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,7 +6,7 @@ using UnityEngine;
 public class ConsoleToScreen : MonoBehaviour
 {
     const int maxLines = 50;
-    const int maxLineLength = 120;
+    const int maxLineLength = 100;
     private string _logStr = "";
 
     private readonly List<string> _lines = new List<string>();
@@ -48,7 +48,7 @@ public class ConsoleToScreen : MonoBehaviour
     void OnGUI()
     {
         GUI.matrix = Matrix4x4.TRS(Vector3.zero, Quaternion.identity,
-           new Vector3(Screen.width / 800.0f, Screen.height / 400.0f, 1.0f));
+           new Vector3(1.5f, 1.5f, 1.0f));
         GUI.Label(new Rect(10, 10, 800, 370), _logStr, new GUIStyle() { fontSize = Math.Max(10, fontSize) });
     }
 }
